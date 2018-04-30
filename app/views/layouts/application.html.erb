@@ -6,9 +6,25 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= favicon_link_tag 'favicon.ico' %>
+    <%= stylesheet_link_tag 'application', 'http://fonts.googleapis.com/css?family=Raleway:400,700' %>
   </head>
-
   <body>
+    <div id="sidebar">
+    <ul>
+      <li class="category"><%= link_to "Blog", root_path %></li>
+      <li><%= link_to "Posts", root_path %></li>
+      <li>About</li>
+     </ul>
+
+     <p class="sign_in">User Login</p>
+    </div>
+
+    
+
+    <div id="main_content">
+
+    </div>
     <%= yield %>
   </body>
 </html>
