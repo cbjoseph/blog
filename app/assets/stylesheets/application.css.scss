@@ -114,8 +114,11 @@ a {
 			float: right;
 			margin-top: -6px;
 			.button {
-				font-size: 8em;
-				margin-left: .5em;
+		        border-bottom: 1px solid #b8e2fe;
+		        background: #529FCD;
+		        color: #FFF;
+		        display: inline;
+
 			}
 		}
 	}
