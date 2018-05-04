@@ -12,4 +12,6 @@ Rails.application.routes.draw do
 
   get 'users/destroy'
 
+  get '/about', to: 'pages#about'
+
 end
